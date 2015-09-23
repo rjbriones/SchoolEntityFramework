@@ -4,17 +4,17 @@
 winexe
 VB
 .vb
-C:\Users\rjavi\Desktop\SchoolEntityFramework\EntityDatabase\obj\Debug\
+C:\Users\rjavi\Desktop\Nueva carpeta\SchoolEntityFramework\EntityDatabase\obj\Debug\
 
 none
 false
 
-C:\Users\rjavi\Desktop\SchoolEntityFramework\EntityDatabase\Application.xaml
+C:\Users\rjavi\Desktop\Nueva carpeta\SchoolEntityFramework\EntityDatabase\Application.xaml
 8-2103494480
 
 49-1579504792
-171174180088
+17-2069789464
 MainWindow.xaml;Modules\Courses\Views\CoursesList.xaml;Modules\Departments\Views\DepartmentsList.xaml;Modules\OfficeAssignments\Views\OfficeAsignmentsList.xaml;Modules\OnlineCourses\Views\OnlineCoursesList.xaml;Modules\OnsiteCourses\Views\OnsiteCoursesList.xaml;Modules\Persons\Views\PersonsList.xaml;Modules\StudentGrades\Views\StudentGradesList.xaml;
 
-True
+False
 

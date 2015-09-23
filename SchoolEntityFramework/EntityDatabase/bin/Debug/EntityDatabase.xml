@@ -6,13 +6,13 @@ EntityDatabase
 </name>
 </assembly>
 <members>
-<member name="M:Modules.Departments.Views.DepartmentsList.InitializeComponent">
+<member name="M:Modules.OnsiteCourses.Views.OnsiteCoursesList.InitializeComponent">
 	<summary>
 InitializeComponent
 </summary>
-</member><member name="T:Modules.Departments.Views.DepartmentsList">
+</member><member name="T:Modules.OnsiteCourses.Views.OnsiteCoursesList">
 	<summary>
-DepartmentsList
+OnsiteCoursesList
 </summary>
 </member><member name="M:Modules.Courses.Views.CoursesList.InitializeComponent">
 	<summary>
@@ -22,45 +22,13 @@ InitializeComponent
 	<summary>
 CoursesList
 </summary>
-</member><member name="M:Modules.OnsiteCourses.Views.OnsiteCoursesList.InitializeComponent">
+</member><member name="M:Modules.Departments.Views.DepartmentsList.InitializeComponent">
 	<summary>
 InitializeComponent
 </summary>
-</member><member name="T:Modules.OnsiteCourses.Views.OnsiteCoursesList">
+</member><member name="T:Modules.Departments.Views.DepartmentsList">
 	<summary>
-OnsiteCoursesList
-</summary>
-</member><member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
-	<summary>
-CreateInstance
-</summary>
-</member><member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
-	<summary>
-GetPropertyValue
-</summary>
-</member><member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
-	<summary>
-SetPropertyValue
-</summary>
-</member><member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
-	<summary>
-CreateDelegate
-</summary>
-</member><member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
-	<summary>
-AddEventHandler
-</summary>
-</member><member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
-	<summary>
-GeneratedInternalTypeHelper
-</summary>
-</member><member name="M:Modules.OfficeAssignments.Views.OfficeAssignmentsList.InitializeComponent">
-	<summary>
-InitializeComponent
-</summary>
-</member><member name="T:Modules.OfficeAssignments.Views.OfficeAssignmentsList">
-	<summary>
-OfficeAssignmentsList
+DepartmentsList
 </summary>
 </member><member name="M:Application.InitializeComponent">
 	<summary>
@@ -97,6 +65,38 @@ InitializeComponent
 </member><member name="T:Modules.StudentGrades.Views.StudentGradesList">
 	<summary>
 StudentGradesList
+</summary>
+</member><member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+	<summary>
+CreateInstance
+</summary>
+</member><member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+	<summary>
+GetPropertyValue
+</summary>
+</member><member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+	<summary>
+SetPropertyValue
+</summary>
+</member><member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+	<summary>
+CreateDelegate
+</summary>
+</member><member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+	<summary>
+AddEventHandler
+</summary>
+</member><member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+	<summary>
+GeneratedInternalTypeHelper
+</summary>
+</member><member name="M:Modules.OfficeAssignments.Views.OfficeAssignmentsList.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Modules.OfficeAssignments.Views.OfficeAssignmentsList">
+	<summary>
+OfficeAssignmentsList
 </summary>
 </member><member name="M:Modules.Persons.Views.PersonsList.InitializeComponent">
 	<summary>
