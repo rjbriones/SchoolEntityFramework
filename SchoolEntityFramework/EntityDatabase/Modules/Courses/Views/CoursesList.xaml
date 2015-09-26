@@ -10,9 +10,10 @@
                   ItemsSource="{Binding Courses}" Height="284" Width="512"
                   AutoGenerateColumns="false" RowDetailsVisibilityMode="VisibleWhenSelected">
             <DataGrid.Columns>
-                <DataGridTextColumn x:Name="DepartmentNameColumn" Binding="{Binding Path=Department.Name}" Header="Department name" Width="110"/>
-                <DataGridTextColumn x:Name="TitleColumn" Binding="{Binding Path=Title}" Header="Title" Width="90"/>
-                <DataGridTextColumn x:Name="CreditsColumn" Binding="{Binding Path=Credits}" Header="Credits" Width="50"/>
+                <DataGridTextColumn x:Name="IdColumn" Binding="{Binding Path=CourseID}" Header="ID" Width="50"/>
+                <DataGridTextColumn x:Name="TitleColumn" Binding="{Binding Path=Title}" Header="Title" Width="100"/>
+                <DataGridTextColumn x:Name="CreditsColumn" Binding="{Binding Path=Credits}" Header="Credits" Width="100"/>
+                <DataGridTextColumn x:Name="DepartmentColumn" Binding="{Binding Path=Department.Name}" Header="Department" Width="100"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

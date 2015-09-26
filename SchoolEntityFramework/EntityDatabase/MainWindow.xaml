@@ -15,7 +15,7 @@
                 <officeassignments:OfficeAssignmentsList x:Name="OfficeAssignmentsUserControl" Background="#1976D2" Margin="0,0,0,0"/>
             </TabItem>
             <TabItem Header="Persons" Margin="403,0,-407,-2">
-                <persons:PersonsList x:Name="PersonsUserControl" Margin="26,0,99,-11"/>
+                <persons:PersonsList x:Name="PersonsUserControl" Margin="26,0,98.6,-11"/>
             </TabItem>
             <TabItem Header="Courses" Margin="-56,0,50,-2"  Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
                 <courses:CoursesList x:Name="CoursesUserControl" Margin="26,0,99,-11"/>
