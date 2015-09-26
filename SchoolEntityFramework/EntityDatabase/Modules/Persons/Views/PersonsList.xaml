@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             mc:Ignorable="d" Height="334" Width="561">
+             mc:Ignorable="d" Height="348" Width="569">
     <Grid Name="MainGrid">
-        <DataGrid HorizontalAlignment="Left" Margin="0,0,-0.2,0" VerticalAlignment="Top"
-                  ItemsSource="{Binding Persons}" Height="324" Width="561"
-                  AutoGenerateColumns="false" RowDetailsVisibilityMode="VisibleWhenSelected">
+        <DataGrid HorizontalAlignment="Left" Margin="0,0,0,0"
+                  ItemsSource="{Binding Persons}" Width="561"
+                  AutoGenerateColumns="false" RowDetailsVisibilityMode="VisibleWhenSelected" Height="282" >
             <DataGrid.Columns>
                 <DataGridTextColumn x:Name="PersonIdColumn" Binding="{Binding Path=PersonID}" Header="ID" Width="100"/>
                 <DataGridTextColumn x:Name="LastNameColumn" Binding="{Binding Path=LastName}" Header="LastName" Width="100"/>

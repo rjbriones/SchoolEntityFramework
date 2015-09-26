@@ -260,6 +260,7 @@
       <DependentUpon>Models.edmx</DependentUpon>
       <LastGenOutput>Models.vb</LastGenOutput>
     </None>
+    <None Include="ClassDiagram1.cd" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>

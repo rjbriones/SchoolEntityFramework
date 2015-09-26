@@ -11,8 +11,7 @@
                   AutoGenerateColumns="false" RowDetailsVisibilityMode="VisibleWhenSelected">
             <DataGrid.Columns>
                 <DataGridTextColumn x:Name="InstructorIDColumn" Binding="{Binding Path=InstructorID}" Header="ID" Width="50"/>
-                <DataGridTextColumn x:Name="LocationColumn" Binding="{Binding Path=Location}" Header="Location" Width="100"/>
-               
+                <DataGridTextColumn x:Name="LocationColumn" Binding="{Binding Path=Location}" Header="Location" Width="100"/>               
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

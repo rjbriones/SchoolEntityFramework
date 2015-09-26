@@ -8,25 +8,25 @@
     xmlns:onlinecourses="clr-namespace:Modules.OnlineCourses.Views"     
     xmlns:onsitecourses="clr-namespace:Modules.OnsiteCourses.Views"    
     xmlns:studentgrades="clr-namespace:Modules.StudentGrades.Views"    
-    Title="MainWindow" Height="400" Width="596.8" Background="#FFBCCBB2">
+    Title="MainWindow" Height="400" Width="595">
     <Grid>
-        <TabControl HorizontalAlignment="Left" Height="369" VerticalAlignment="Top" Width="590" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
-            <TabItem Header="OfficeAssignaments" HorizontalAlignment="Right" Width="120" Margin="0,0,0,-2">
-                <officeassignments:OfficeAssignmentsList x:Name="OfficeAssignmentsUserControl" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Margin="0,0,1.8,0.4"/>
+        <TabControl HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="595" Background="#1976D2">
+            <TabItem Header="OfficeAssignaments" HorizontalAlignment="Right" Width="120" Margin="0,0,0,-3">
+                <officeassignments:OfficeAssignmentsList x:Name="OfficeAssignmentsUserControl" Background="#1976D2" Margin="0,0,0,0"/>
             </TabItem>
             <TabItem Header="Persons" Margin="403,0,-407,-2">
                 <persons:PersonsList x:Name="PersonsUserControl" Margin="26,0,99,-11"/>
             </TabItem>
-            <TabItem Header="Courses" Margin="-57,0,53,0" Height="22" VerticalAlignment="Top" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+            <TabItem Header="Courses" Margin="-56,0,50,-2"  Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
                 <courses:CoursesList x:Name="CoursesUserControl" Margin="26,0,99,-11"/>
             </TabItem>
-            <TabItem Header="Departments" Margin="-53,0,49,-2" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+            <TabItem Header="Departments" Margin="-53.4,0,0,-2" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" HorizontalAlignment="Left" Width="85">
                 <departments:DepartmentsList x:Name="DepartmentsUserControl" Margin="26,0,99,-11"/>
             </TabItem>
             <TabItem Header="OnlineCourses" Margin="34,0,-38,-2">
                 <onlinecourses:OnlineCoursesList x:Name="OnlineCoursesUserControl" Margin="26,0,99,-11"/>
             </TabItem>
-            <TabItem Header="OnsiteCourses" Margin="-141,0,137,-2">
+            <TabItem Header="OnsiteCourses" Margin="-142.8,0,138.8,-2">
                 <onsitecourses:OnsiteCoursesList x:Name="OnsiteCoursesUserControl" Margin="26,0,99,-11"/>
             </TabItem>
             <TabItem Header="StudentGrades" Margin="-54,0,0,-2" HorizontalAlignment="Left" Width="94">
