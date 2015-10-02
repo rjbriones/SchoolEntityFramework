@@ -13,7 +13,7 @@
                 <DataGridTextColumn x:Name="CourseColumn" Binding="{Binding Path=Course.Title}" Header="Course" Width="100"/>
                 <DataGridTextColumn x:Name="URLColumn" Binding="{Binding Path=URL}" Header="URL" Width="260"/>
             </DataGrid.Columns>
-        </DataGrid>z
+        </DataGrid>
     </Grid>
 </UserControl>
 
