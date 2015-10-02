@@ -16,5 +16,8 @@
                 <DataGridTextColumn x:Name="DepartmentColumn" Binding="{Binding Path=Department.Name}" Header="Department" Width="100"/>
             </DataGrid.Columns>
         </DataGrid>
+        <Button Content="Agregar" HorizontalAlignment="Left" Margin="25,293.5,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Modificar" HorizontalAlignment="Left" Margin="100,293.5,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="175,293.5,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="3.771,3.271"/>
     </Grid>
 </UserControl>

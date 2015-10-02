@@ -10,9 +10,9 @@
     xmlns:studentgrades="clr-namespace:Modules.StudentGrades.Views"    
     Title="MainWindow" Height="400" Width="595">
     <Grid>
-        <TabControl HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="595" Background="#1976D2">
+        <TabControl HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="595" Background="#303F9F">
             <TabItem Header="OfficeAssignaments" HorizontalAlignment="Right" Width="120" Margin="0,0,0,-3">
-                <officeassignments:OfficeAssignmentsList x:Name="OfficeAssignmentsUserControl" Background="#1976D2" Margin="0,0,0,0"/>
+                <officeassignments:OfficeAssignmentsList x:Name="OfficeAssignmentsUserControl" Background="#303F9F" Margin="0,0,0,0"/>
             </TabItem>
             <TabItem Header="Persons" Margin="403,0,-407,-2">
                 <persons:PersonsList x:Name="PersonsUserControl" Margin="26,0,98.6,-11"/>
