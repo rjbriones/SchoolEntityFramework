@@ -66,6 +66,14 @@ InitializeComponent
 	<summary>
 StudentGradesList
 </summary>
+</member><member name="M:CRUDCoursesListView.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:CRUDCoursesListView">
+	<summary>
+CRUDCoursesListView
+</summary>
 </member><member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
 	<summary>
 CreateInstance

@@ -12,25 +12,25 @@
     <Grid>
         <TabControl HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="595" Background="#303F9F">
             <TabItem Header="OfficeAssignaments" HorizontalAlignment="Right" Width="120" Margin="0,0,0,-3">
-                <officeassignments:OfficeAssignmentsList x:Name="OfficeAssignmentsUserControl" Background="#303F9F" Margin="0,0,0,0"/>
+                <officeassignments:OfficeAssignmentsList x:Name="OfficeAssignmentsUserControl" Margin="5,-20,5,0"/>
             </TabItem>
             <TabItem Header="Persons" Margin="403,0,-407,-2">
-                <persons:PersonsList x:Name="PersonsUserControl" Margin="26,0,98.6,-11"/>
+                <persons:PersonsList x:Name="PersonsUserControl" Margin="0,-65,10,0"/>
             </TabItem>
             <TabItem Header="Courses" Margin="-56,0,50,-2"  Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
-                <courses:CoursesList x:Name="CoursesUserControl" Margin="26,0,99,-11"/>
+                <courses:CoursesList x:Name="CoursesUserControl" Margin="5,-20,5,0"/>
             </TabItem>
             <TabItem Header="Departments" Margin="-53.4,0,0,-2" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" HorizontalAlignment="Left" Width="85">
-                <departments:DepartmentsList x:Name="DepartmentsUserControl" Margin="26,0,99,-11"/>
+                <departments:DepartmentsList x:Name="DepartmentsUserControl" Margin="5,-20,5,0"/>
             </TabItem>
             <TabItem Header="OnlineCourses" Margin="34,0,-38,-2">
-                <onlinecourses:OnlineCoursesList x:Name="OnlineCoursesUserControl" Margin="26,0,99,-11"/>
+                <onlinecourses:OnlineCoursesList x:Name="OnlineCoursesUserControl" Margin="5,-20,5,0"/>
             </TabItem>
             <TabItem Header="OnsiteCourses" Margin="-142.8,0,138.8,-2">
-                <onsitecourses:OnsiteCoursesList x:Name="OnsiteCoursesUserControl" Margin="26,0,99,-11"/>
+                <onsitecourses:OnsiteCoursesList x:Name="OnsiteCoursesUserControl" Margin="5,-20,5,0"/>
             </TabItem>
             <TabItem Header="StudentGrades" Margin="-54,0,0,-2" HorizontalAlignment="Left" Width="94">
-                <studentgrades:StudentGradesList x:Name="StudentGradesUserControl" Margin="26,0,99,-11"/>
+                <studentgrades:StudentGradesList x:Name="StudentGradesUserControl" Margin="5,-20,5,0"/>
             </TabItem>
         </TabControl>
     </Grid>

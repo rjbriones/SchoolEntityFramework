@@ -140,11 +140,16 @@
     <Compile Include="BusinessObjects\Models\StudentGrade.vb">
       <DependentUpon>Models.tt</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\Helpers\RelayCommand.vb" />
     <Compile Include="MainWindow.xaml.vb">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Modules\Courses\Views\CoursesList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Modules\Courses\Views\CRUDCoursesListView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -194,8 +199,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Modules\Courses\ViewModels\CoursesViewModel.vb" />
+    <Compile Include="Modules\Courses\ViewModels\CRUDCoursesListViewModel.vb" />
     <Compile Include="Modules\Courses\Views\CoursesList.xaml.vb">
       <DependentUpon>CoursesList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Courses\Views\CRUDCoursesListView.xaml.vb">
+      <DependentUpon>CRUDCoursesListView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Modules\Departments\ViewModels\DepartmentsViewModel.vb" />
     <Compile Include="Modules\Departments\Views\DepartmentsList.xaml.vb">

@@ -64,3 +64,5 @@ C:\Users\rjavi\Desktop\Nueva carpeta\SchoolEntityFramework\EntityDatabase\obj\De
 C:\Users\rjavi\Desktop\Nueva carpeta\SchoolEntityFramework\EntityDatabase\obj\Debug\EntityDatabase.g.resources
 C:\Users\rjavi\Desktop\Nueva carpeta\SchoolEntityFramework\EntityDatabase\obj\Debug\Resources.resources
 C:\Users\rjavi\Desktop\Nueva carpeta\SchoolEntityFramework\EntityDatabase\obj\Debug\EntityDatabase.vbproj.GenerateResource.Cache
+C:\Users\rjavi\Desktop\Nueva carpeta\SchoolEntityFramework\EntityDatabase\obj\Debug\Modules\Courses\Views\CRUDCoursesListView.baml
+C:\Users\rjavi\Desktop\Nueva carpeta\SchoolEntityFramework\EntityDatabase\obj\Debug\Modules\Courses\Views\CRUDCoursesListView.g.vb

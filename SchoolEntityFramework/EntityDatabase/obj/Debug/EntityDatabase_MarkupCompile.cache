@@ -10,11 +10,11 @@ none
 false
 
 C:\Users\rjavi\Desktop\Nueva carpeta\SchoolEntityFramework\EntityDatabase\Application.xaml
-8-2103494480
+9148813335
 
-48-416500540
+51269284236
 17-2069789464
-MainWindow.xaml;Modules\Courses\Views\CoursesList.xaml;Modules\Departments\Views\DepartmentsList.xaml;Modules\OfficeAssignments\Views\OfficeAsignmentsList.xaml;Modules\OnlineCourses\Views\OnlineCoursesList.xaml;Modules\OnsiteCourses\Views\OnsiteCoursesList.xaml;Modules\Persons\Views\PersonsList.xaml;Modules\StudentGrades\Views\StudentGradesList.xaml;
+MainWindow.xaml;Modules\Courses\Views\CoursesList.xaml;Modules\Courses\Views\CRUDCoursesListView.xaml;Modules\Departments\Views\DepartmentsList.xaml;Modules\OfficeAssignments\Views\OfficeAsignmentsList.xaml;Modules\OnlineCourses\Views\OnlineCoursesList.xaml;Modules\OnsiteCourses\Views\OnsiteCoursesList.xaml;Modules\Persons\Views\PersonsList.xaml;Modules\StudentGrades\Views\StudentGradesList.xaml;
 
 False
 
