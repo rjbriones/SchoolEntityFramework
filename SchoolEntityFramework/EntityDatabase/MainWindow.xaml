@@ -8,7 +8,7 @@
     xmlns:onlinecourses="clr-namespace:Modules.OnlineCourses.Views"     
     xmlns:onsitecourses="clr-namespace:Modules.OnsiteCourses.Views"    
     xmlns:studentgrades="clr-namespace:Modules.StudentGrades.Views"    
-    Title="MainWindow" Height="400" Width="595">
+    Title="MainWindow" Height="400" Width="595" ResizeMode="NoResize">
     <Grid>
         <TabControl HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="595" Background="#303F9F">
             <TabItem Header="OfficeAssignaments" HorizontalAlignment="Right" Width="120" Margin="0,0,0,-3">
